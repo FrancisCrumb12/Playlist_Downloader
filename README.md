@@ -7,7 +7,7 @@ A simple command-line tool to download the audio from all videos in a YouTube pl
 
 *   Downloads audio-only streams from YouTube playlist videos.
 *   Prompts the user to create a new folder for each playlist download.
-*   Saves downloaded files to a default Music directory (`C:\Users\<USERNAME>\Music\` on Windows, `usr/share/Music/` on other systems).
+*   Saves downloaded files to a default Music directory (`C:\Users\<USERNAME>\Music\`).
 *   Validates YouTube playlist URLs.
 *   Simple and interactive command-line interface.
 
