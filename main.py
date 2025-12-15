@@ -55,13 +55,9 @@ def main():
     folder = ''
     print(t)
 
-    if os.name ==  'nt':
-        USER = os.environ.get("USERNAME")  # GETS USER NAME
-        PATH = f'C:\\Users\\{USER}\\Music\\' # DIRECTORY PATH
-
-    else:
-        PATH = 'usr/share/Music/'
-
+    USER = os.environ.get("USERNAME")  # GETS USER NAME
+    PATH = f'C:\\Users\\{USER}\\Music\\' # DIRECTORY PATH
+   
     while True:
         try:
             clear_screen()
