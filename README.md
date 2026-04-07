@@ -1,7 +1,7 @@
 # Playlist Downloader
 
 
-A simple command-line tool to download the audio from all videos in a YouTube playlist. The script organizes the downloaded audio files into a specified folder within your system's default Music directory.
+A simple command-line tool to download the audio from all videos in a YouTube playlist using pytubefix. The script organizes the downloaded audio files into a specified folder within your system's default Music directory.
 
 ## Features
 
