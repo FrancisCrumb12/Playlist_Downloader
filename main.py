@@ -51,12 +51,15 @@ def validate_url(user_input):
         return False
 
 def main():
-
     folder = ''
     print(t)
+    if os.name ==  'nt':
+        username = os.environ.get("USERNAME" or "USER")
+        PATH = f'C:\\Users\\{username}\\Music\\'
 
-    USER = os.environ.get("USERNAME")  # GETS USER NAME
-    PATH = f'C:\\Users\\{USER}\\Music\\' # DIRECTORY PATH
+    else:
+        username = pwd.getpwuid(os.getuid()).pw_name
+        PATH = f'/home/{username}/Music'
    
     while True:
         try:
