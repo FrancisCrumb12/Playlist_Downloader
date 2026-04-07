@@ -45,7 +45,7 @@ A simple command-line tool to download the audio from all videos in a YouTube pl
 3.  Next, paste the full URL of the YouTube playlist you want to download and press Enter.
     ```
     Enter the link of the playlist you wish to download.
-    > https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&
+    > https://www.youtube.com/watch?v=UtEsHFVFxCc&list=PLjOD-Fk6FjcbBEcBRB4GY5TRgLOaPp_CH
     ```
 
 4.  The script will then begin downloading the audio track from each video in the playlist. The progress will be displayed in the console.
