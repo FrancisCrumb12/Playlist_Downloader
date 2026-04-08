@@ -58,6 +58,7 @@ def main():
         PATH = f'C:\\Users\\{username}\\Music\\'
 
     else:
+        import pwd
         username = pwd.getpwuid(os.getuid()).pw_name
         PATH = f'/home/{username}/Music'
    
