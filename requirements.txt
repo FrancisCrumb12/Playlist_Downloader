@@ -1,2 +1,1 @@
 pytubefix
-colorama
